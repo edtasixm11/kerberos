@@ -1,7 +1,7 @@
 # Kerberos
 
-## Repositori d'imatges de kerberos
-## @edt ASIX-M11 Curs 2017-2018
+Repositori d'imatges de kerberos
+@edt ASIX-M11 Curs 2017-2018
 
 ## Imatges:
 
