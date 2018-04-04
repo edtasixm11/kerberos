@@ -39,3 +39,15 @@ Es creen comptes de usuaris locals unix però no se'ls assigna passwd per mostra
 que l'autenticació és kerberos.
 Usuaris creats: pere, anna, marta, pau, julia, jordi
 
+
+## Compose
+
+docker swarm init
+docker stack deploy -c docker-compose.yml 
+
+docker service ls
+docker service ps mykrb5
+docker container ls
+
+docker stack rm mykrb5
+docker swarm leave --force

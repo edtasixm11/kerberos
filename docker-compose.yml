@@ -1,0 +1,16 @@
+version: "3"
+services:
+  kserver:
+    image: kserver:base
+    networks:
+      - krb5net
+  kssh:
+    image: kssh:base
+    networks:
+      - krb5net  
+  khost:
+    image: khost:base
+    networks:
+      - krb5net
+networks:
+ krb5net:
