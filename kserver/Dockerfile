@@ -20,6 +20,7 @@ RUN  /usr/sbin/kadmin.local -q "addprinc -pw kmarta marta/admin"
 RUN  /usr/sbin/kadmin.local -q "addprinc -pw kpau pau"
 RUN  /usr/sbin/kadmin.local -q "addprinc -pw kjulia julia"
 RUN  /usr/sbin/kadmin.local -q "addprinc -pw kjordi jordi"
+RUN  /usr/sbin/kadmin.local -q "addprinc -randkey host/kssh"
 RUN chmod +x /opt/docker/startup.sh
 WORKDIR /opt/docker 
 CMD ["/opt/docker/startup.sh"]

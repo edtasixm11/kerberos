@@ -1,6 +1,6 @@
 # @edt ASIX-M11 Curs 2017-2018
-# kserver
-# servidor kerberos
+# kclient
+# client kerberos
 # --------------------------------
 FROM fedora:24
 MAINTAINER asixm11@edt "@edt ASIX-M11 Curs 2017-2018"
